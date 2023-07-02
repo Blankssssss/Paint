@@ -75,6 +75,7 @@ export const useCanvas = () => {
       setIsEraser(false)
     } else {
       setIsRainbow(false)
+      ctxRef.current.strokeStyle = brushColor
     }      
   }
 

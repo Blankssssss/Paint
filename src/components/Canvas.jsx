@@ -24,7 +24,7 @@ const Canvas = () => {
           type="color"
           value={brushColor}
           onChange={handleBrushColor}
-          title="Brush Color"
+          title="Select Color"
         />
         <label htmlFor="size">Size:</label>
         <input 
@@ -33,7 +33,7 @@ const Canvas = () => {
           type="number"
           value={brushSize}
           onChange={handleBrushSize}
-          title="Brush Size"
+          title="Select Size"
         />
         <button className={isRainbow ? "tool__rainbow active" : "tool__rainbow"} onClick={handleRainbow} title="Rainbow Brush">
           <img src ={rainbowIcon} />
