@@ -43,7 +43,6 @@ export const useCanvas = () => {
     if (isRainbow) {
       ctxRef.current.beginPath()
       ctxRef.current.lineTo(e.nativeEvent.offsetX, e.nativeEvent.offsetY)
-      ctxRef.current.stroke()
       ctxRef.current.strokeStyle = `hsl(${hue}, 100%, 50%)`
       setHue(hue + 1)
       if (hue >= 360) setHue(0)

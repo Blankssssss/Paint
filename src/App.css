@@ -49,7 +49,6 @@ label {
 button {
   padding: 0.8em;
   border: 1.4px solid black;
-  font-family: inherit;
   font-size: 0.9em;
   border-radius: 50%;
 }
